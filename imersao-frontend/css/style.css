@@ -1,0 +1,104 @@
+
+* {
+    color: white;
+    font-family: "DM Sants", sans-serif;
+}
+body {
+    background-color: #000;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 12px;
+    width: 300px;
+}
+
+.sidebar__nav {
+    background-color: #121212;
+    border-radius: 9px;
+    padding: 16px 0 0 16px;
+}
+
+
+.logo {
+    background-color: #121212;
+    display: flex;
+    border-radius: 8px;
+    padding: 16px 0 0 16px;
+}
+
+
+.logo img {
+    width: 15vh;
+}
+
+.nav__icons ul {
+    margin-top: 15px;
+    padding: 0 20px 10px 20px;
+}
+
+.nav__icons ul li {
+    padding: 10px 10px;
+}
+
+.nav__icons ul li a {
+    text-decoration: none;
+    color: #b3b3b3;
+    font-weight: 600;
+    font-size: 14px;
+    font-family: "DM Sants", sans-serif;
+}
+
+.section__library {
+    background-color: #121212;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 9px;
+    width: 300px;
+    height: 180px;
+}
+
+.library {
+    padding: 15px 0 12px 20px;
+    font-size: 17px;
+    font-weight: 500;
+
+}
+
+.library a span{
+    color: #b3b3b3;
+    font-size: 20px;
+
+}
+
+.playlist {
+    background-color: #2e2e2e;
+    border-radius: 8px;
+    font-family: "DM Sants", sans-serif;
+    margin: 0 19px 30px 19px;
+    padding: 6px 0 13px 9px;
+}
+
+.playlist h3 {
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.playlist p {
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+
+.playlist button {
+    border-radius: 30px;
+    outline: none;
+    color: black;
+    background-color: white;
+    width: 200px;
+    height: 40px;
+    
+}
