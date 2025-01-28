@@ -13,13 +13,11 @@
 <body>
     <div class="sidebar">
         <nav class="sidebar__nav">
-
             <div class="logo">
                 <a href="#">
                     <img src="assets/icons/logo-spotify.png" alt="logo do spotify">
                 </a>
             </div>
-
                 <div class="nav__icons">
                     <ul>
                         <li>
@@ -28,7 +26,6 @@
                                 <span>Inicio</span>
                             </a>
                         </li>
-
                         <li>
                             <a href="#">
                                 <span class="fa fa-search"></span>
@@ -39,24 +36,37 @@
                 </div>
         </nav>
 
-        <section class="section__library">
-            <div class="library">
-                <a href="#">
-                    <span class="fa fa-book">Sua Biblioteca</span>
-                </a>
+        <div class="library">
+            <div class="library__container">
+                <button class="library__button">
+                    <span class="fa fa-book"></span>
+                    <span>Sua Biblioteca</span>
+                </button>
+                <span class="fa fa-plus"></span>
             </div>
             
-            <div class="playlist">
-                <h3>Crie sua playlist</h3>
-                <p>É facil, vamos te ajudar!</p>
-                <button>Criar Playlist</button>
+            <section class="section__playlist">
+                <div class="section__content">
+                    <span class="text title">Crie sua playlist</span>
+                    <span class="text sibtitle">É facil, vamos te ajudar!</span>
+                    <button class="button__playlist">
+                        <span>Criar Playlist</span>
+                    </button>
+                </div>
+            </section>
+            
+            <div class="cookies"><a href="#">Cookies</a></div>
+
+            <div class="language">
+                <button class="button__language">
+                    <span class="fa fa-globe"></span>
+                    <span>Portugues PT-BR</span>
+                </button>
             </div>
-        </section>
+        </div>
     </div>
 
-
-
-
+    <footer></footer>
 
 
     <script src="script.js"></script>
