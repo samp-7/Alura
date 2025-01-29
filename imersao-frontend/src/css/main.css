@@ -40,3 +40,24 @@
     cursor: pointer;
 
 }
+
+.header-login {
+    display: flex;
+    align-items: center;
+}
+
+.header-search {
+    display: flex;
+    align-items: center;
+    width: 364px;
+    height: 40px;
+    margin-left: 8px;
+    background-color: var(--cinza-escuro);
+    border-radius: 500px;
+    border: 1px solid transparent;
+}
+
+.header-search img {
+    width: 16px;
+    height: 16px;
+}
