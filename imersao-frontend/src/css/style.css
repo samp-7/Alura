@@ -3,7 +3,8 @@
     font-family: "DM Sants", sans-serif;
 }
 body {
-    background-color: #000;
+    background-color: var(--preto);
+    font-family: var(--font);
 }
 
 .sidebar {
@@ -15,14 +16,14 @@ body {
 }
 
 .sidebar__nav {
-    background-color: #121212;
+    background-color: var(--cinza);
     border-radius: 9px;
     padding: 16px 0 0 16px;
 }
 
 
 .logo {
-    background-color: #121212;
+    background-color: var(--cinza);
     display: flex;
     border-radius: 8px;
     padding: 16px 0 0 16px;
@@ -44,21 +45,20 @@ body {
 
 .nav__icons ul li a {
     text-decoration: none;
-    color: #b3b3b3;
+    color: var(--cinza-claro);
     font-weight: 600;
     font-size: 14px;
-    font-family: "DM Sants", sans-serif;
 }
 
 .library {
-    background-color: #121212;
+    background-color: var(--cinza);
     border-radius: 9px;
     margin-top: 10px;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
     padding: 4px 8px;
-    color: #b3b3b3;
+    color: var(--cinza-claro);
     font-weight: 600;
     font-size: 14px
 }
@@ -75,12 +75,11 @@ body {
 .library__button {
     display: flex;
     margin-right: 10px;
-    color: #b3b3b3;
+    color:var(--cinza-claro);
     background: transparent;
     border: none;
     font-size: 1rem;
     font-weight: 700;
-    font-family: "DM Sants", sans-serif;
     text-align: center;
     text-decoration: none;
     text-transform: none;
@@ -105,10 +104,9 @@ body {
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
-    font-family: "DM Sants", sans-serif;;
     gap: 20px;
-    background-color: #242424;
-    color: #b3b3b3;
+    background-color: var(--cinza-escuro);
+    color: var(--cinza-claro);
     font-weight: 600;
     font-size: 14px;
     border-radius: 4px;
@@ -123,7 +121,7 @@ body {
 
 .section__content .text {
     padding-bottom: 14px;
-    color: white;
+    color: var(--branco);
 }
 
 .section__content .title {
@@ -138,13 +136,12 @@ body {
 
 .section__content .button__playlist {
     color: black;
-    background-color: white;
+    background-color: var(--branco);
     display: flex;
     justify-content: center;
     border-radius: 20px;
     font-size: 12px;
     font-weight: 700px;
-    font-family: "DM Sants", sans-serif;
     padding: 8px;
     text-decoration: none;
     text-transform: none;
@@ -158,8 +155,7 @@ body {
 }
 
 .cookies a {
-    color:#b3b3b3;
-    font-family: "DM Sants", sans-serif;
+    color: var(--cinza-claro);
     font-weight: 600;
     font-size: 12px;
 }
@@ -167,8 +163,8 @@ body {
 .button__language {
     background: transparent;
     border-radius: 30px;
-    border: 1px white solid;
-    color: white;
+    border: 1px var(--branco) solid;
+    color: var(--branco);
     padding: 10px;
     width: 150px;
     margin-bottom: 10px;

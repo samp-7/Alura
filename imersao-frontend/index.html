@@ -3,8 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/var.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="src/css/main.css">
     <link rel="shortcut icon" href="assets/icons/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/solid.css"/>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/fontawesome.css"/>
@@ -15,7 +17,7 @@
         <nav class="sidebar__nav">
             <div class="logo">
                 <a href="#">
-                    <img src="assets/icons/logo-spotify.png" alt="logo do spotify">
+                    <img src="./src/assets/icons/logo-spotify.png" alt="logo do spotify">
                 </a>
             </div>
                 <div class="nav__icons">
@@ -66,9 +68,37 @@
         </div>
     </div>
 
+    <main>
+        <div class="main-container">
+            <nav class="header__navegation">
+                <div class="navegation">
+                    <button class="arrow-left">
+                        <img src="./src/assets/icons/small-left.png" alt="seta a esquerda">
+                    </button>
+
+                    <button class="arros-right">
+                        <img src="./src/assets/icons/small-right.png" alt="seta direita">
+                    </button>
+
+                    <div class="header-search">
+                        <img src="./src/assets/icons/search.png" alt="busca">
+                        <input type="text" maxlength="800" id="search-input" placeholder="O que voce quer ouvir?">
+                    </div>
+                    
+                    <div class="header-login">
+                        <button class="subscribe">Inscreva-se</button>
+                        <button class="login">Entrar</button>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </main>
+
+
+
+
+
     <footer></footer>
-
-
     <script src="script.js"></script>
 </body>
 </html>
